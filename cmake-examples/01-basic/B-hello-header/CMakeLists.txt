@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(hello_header)
+
+# set(
+#   SOURCES
+#   src/Hello.cpp
+#   src/main.cpp
+# )
+
+file(GLOB SOURCES "src/*.cpp")
+
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+target_include_directories(
+  hello_header
+  PRIVATE
+  ${PROJECT_SOURCE_DIR}/include
+)
