@@ -11,13 +11,12 @@ Repositório central com o que eu aprendi sobre o CMake.
 
 [Tutorial Oficial do CMake](cmake-official-tutorial/README.md)
 
-<div>
-  <br>
-  <br>
-  <br>
-</div>
+### CMake Moderno
 
----
+[Effective CMake](https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1), em Gist
+com vários vídeos de CppCon.
+
+[Modern CMake](https://cliutils.gitlab.io/modern-cmake/chapters/features/modules.html)
 
 ## Aleatórios
 
